@@ -1,6 +1,7 @@
 package com.gsa.usuario.infrastructure.repository;
 
-import com.Gsa.aprendendostring.infrastructure.entity.usuario;
+
+import com.gsa.usuario.infrastructure.entity.usuario;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
