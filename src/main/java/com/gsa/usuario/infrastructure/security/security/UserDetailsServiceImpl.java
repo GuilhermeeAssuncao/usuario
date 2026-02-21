@@ -1,8 +1,9 @@
 package com.gsa.usuario.infrastructure.security.security;
 
 
-import com.Gsa.aprendendostring.infrastructure.entity.usuario;
-import com.Gsa.aprendendostring.infrastructure.repository.UsuarioRepository;
+
+import com.gsa.usuario.infrastructure.entity.usuario;
+import com.gsa.usuario.infrastructure.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
