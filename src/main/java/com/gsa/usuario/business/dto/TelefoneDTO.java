@@ -1,5 +1,6 @@
 package com.gsa.usuario.business.dto;
 
+import jakarta.persistence.Column;
 import lombok.*;
 
 @Getter
@@ -9,7 +10,6 @@ import lombok.*;
 @Builder
 public class TelefoneDTO {
 
-    private Long id;
     private String numero;
     private String ddd;
 }
